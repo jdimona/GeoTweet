@@ -14,7 +14,7 @@
 		"express": "*",
 		"less": "*",
 		"jade": "*",
-		"twiter-node": "*",
+		"twitter-node": "*",
 		"socket.io": "*"
 },
   "devDependencies": {}
