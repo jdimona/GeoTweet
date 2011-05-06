@@ -1,0 +1,20 @@
+{
+  "author": "John DiMona <jdimona@gmail.com>",
+  "name": "geotweet",
+  "version": "0.0.1",
+  "homepage": "geotweet.duostack.net",
+  "repository": {
+    "url": ""
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "~v0.5.0-pre"
+  },
+  "dependencies": {
+		"express": "*",
+		"less": "*",
+		"jade": "*",
+		"twiter-node": "*"
+},
+  "devDependencies": {}
+}
