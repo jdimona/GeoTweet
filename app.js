@@ -4,7 +4,7 @@
  */
 
 var express = require('express');
-var Twiterserver = require('./twitterserver');
+var Twitterserver = require('./twitterserver');
 
 var twit = new Twitterserver();
 var app = module.exports = express.createServer();
