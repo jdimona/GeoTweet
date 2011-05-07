@@ -5,7 +5,7 @@ var EventEmitter = require('events').EventEmitter;
 // Twitter Streaming endpoint
 TwitterStream.url = {
   host: 'stream.twitter.com',
-  path: '/1/statuses/sample.json',
+  path: '/1/statuses/filter.json?locations=-180,-90,180,90',
   port: 80
 };
 

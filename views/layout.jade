@@ -1,8 +1,11 @@
 !!!5
 html
 	head
+		meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
 		title= title
-		script(src='/javascripts/jquery-1.6.js')
-		script(type='text/javascript', src='/socket.io/socket.io.js')
 		link(rel='stylesheet', href='/stylesheets/style.css')
-	body!= body
+		script(type='text/javascript', src='/javascripts/jquery-1.6.js')
+		script(type='text/javascript', src='http://maps.google.com/maps/api/js?sensor=false')
+		script(type='text/javascript', src='/socket.io/socket.io.js')
+		//script(type='text/javascript')
+	body(onload="initialize()")!= body
