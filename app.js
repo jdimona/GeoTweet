@@ -32,7 +32,6 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', twit.index);
-app.get('/map', twit.map);
 
 // Only listen on $ node app.js
 

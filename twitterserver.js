@@ -3,15 +3,9 @@ function Twitterserver() {
 
 //url handling
 Twitterserver.prototype.index = function(req, res) {
-	console.log('user wants to connect');
-	
-	res.render('index', { title: "Geotweet - Login to twitter"});
-};
-
-Twitterserver.prototype.map = function(req, res) {
 	console.log('user viewing map page')
 	
-	res.render('map', { title: "Geotweet - Map", socket: true });
+	res.render('index', { title: "Geotweet - Map" });
 };
 
 
