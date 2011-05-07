@@ -31,15 +31,13 @@ app.configure('production', function(){
 
 // Routes
 
-app.get('/', function(req, res){
-  res.render('index', {
-    title: 'Express'
-  });
-});
+app.get('/', twit.index);
+app.get('/map', twit.map);
 
 // Only listen on $ node app.js
 
 if (!module.parent) {
   app.listen(3000);
   console.log("Express server listening on port %d", app.address().port);
+	twit.init(app);
 }

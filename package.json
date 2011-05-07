@@ -15,7 +15,9 @@
 		"less": "*",
 		"jade": "*",
 		"twitter-node": "*",
-		"socket.io": "*"
+		"socket.io": "*",
+		"oauth": "*",
+		"json": "*"
 },
   "devDependencies": {}
 }
