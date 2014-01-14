@@ -14,7 +14,7 @@
     "twitter": "~0.2.5",
     "node-static": "~0.7.3",
     "q": "~1.0.0",
-    "q-io": "~1.10.6"
+    "engine.io": "~0.8.0"
   },
   "devDependencies": {}
 }

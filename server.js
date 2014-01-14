@@ -17,3 +17,5 @@ require('http').createServer(function (request, response) {
     fileServer.serve(request, response);
   }).resume();
 }).listen(2000);
+
+console.log('HTTP server is listening on port 2000...');
