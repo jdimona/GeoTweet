@@ -32,6 +32,7 @@ index.yaml
 *.log
 *.sql
 *.sqlite
+npm-debug.log
 
 # OS generated files #
 ######################
@@ -46,3 +47,7 @@ Thumbs.db
 # Dependancies #
 ################
 node_modules/
+
+# Configuration #
+#################
+lib/twitter/config.json

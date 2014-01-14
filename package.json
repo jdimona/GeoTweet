@@ -8,10 +8,13 @@
   },
   "main": "server.js",
   "engines": {
-    "node": "~v0.10.11"
+    "node": "~v0.8.23"
   },
   "dependencies": {
-    "twitter": "~0.2.5"
+    "twitter": "~0.2.5",
+    "node-static": "~0.7.3",
+    "q": "~1.0.0",
+    "q-io": "~1.10.6"
   },
   "devDependencies": {}
 }
