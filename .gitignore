@@ -42,3 +42,7 @@ Icon?
 Thumbs.db
 .pydevproject
 .project
+
+# Dependancies #
+################
+node_modules/
